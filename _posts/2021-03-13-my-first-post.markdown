@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "나의 첫 포스트!!!!"
+title: "my first post!!!!"
 date: 2021-03-13 12:44:25 +0200
 image: sehui1.jpg
 tags: [구구절절]
