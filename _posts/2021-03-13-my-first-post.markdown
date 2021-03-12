@@ -10,5 +10,6 @@ categories: 블로그
 #### 흠....
 재밌구만......
 > 아하하하아하하
+
 음.... 카테고리에서 포스트 누르면 404뜨는 문제랑
-newsletter에서 subscribe 누르면 405뜨는 문제가 있다.
+newsletter에서 subscribe 누르면 405뜨는 문제가 있다.ㅜㅜ
