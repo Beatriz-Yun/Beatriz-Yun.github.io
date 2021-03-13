@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "블로그 설정하는 과정"
-date: 2021-03-13 22:14:25 +0200
+date: 2021-03-13 22:22:58 +0200
 image: sehui1.jpg
 tags:
 categories: 블로그
