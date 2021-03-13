@@ -4,6 +4,7 @@ title: The best way to decorate your desktop
 image: 10.jpg
 date: 2018-02-06 10:05:20 +0200
 tags: [workflow, decoration]
+published: false
 categories: decoration
 ---
 Intelligentsia mixtape gastropub, mlkshk deep v plaid flexitarian vice. Succulents keytar craft beer shabby chic. Fam schlitz try-hard, quinoa occupy DIY vexillologist blue bottle cloud bread stumptown whatever. Sustainable cloud bread beard fanny pack vexillologist health goth.
