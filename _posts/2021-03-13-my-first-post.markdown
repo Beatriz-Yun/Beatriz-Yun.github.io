@@ -13,8 +13,8 @@ categories: 블로그
 - disqus 설정 (웹사이트 추가 후, short name 수정)
 - newsletter부분 주석처리함
 
+
 #### 2021-03-13
 - Google Analytics 설정 (추적 ID 수정)
-- 카테고리 페이지에서 카테고리 누르면 404오류 정정
-  (category 폴터 추가 후, 카테고리명.md파일 생성하고 layout: category-page)
+- 카테고리 페이지에서 카테고리 누르면 404오류 정정  (category 폴터 추가 후, 카테고리명.md파일 생성하고 layout: category-page)
 - 포스트 비공개 설정 (published: false)
