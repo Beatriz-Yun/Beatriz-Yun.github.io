@@ -11,6 +11,7 @@ categories: 블로그
 - 프로필 사진 바꾸기
 - sns 링크 바꾸기
 - disqus 설정 (웹사이트 추가 후, short name 수정)
+- newsletter부분 주석처리함
 
 #### 2021-03-13
 - Google Analytics 설정 (추적 ID 수정)
