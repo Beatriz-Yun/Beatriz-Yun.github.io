@@ -1,4 +1,4 @@
 ---
 layout: category-page
-category: RISE
+title: RISE
 ---
