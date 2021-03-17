@@ -13,7 +13,7 @@ categories: 블로그
 - disqus 설정 (웹사이트 추가 후, short name 수정)
 - newsletter부분 삭제
 
-  (_layouts/post.html 43번째 줄에서 ~{% include newsletter.html %}~ 지웠음.)
+  (_layouts/post.html 43번째 줄에서 {% ~include newsletter.html~ %} 지웠음.)
 
 
 #### 2021-03-13
