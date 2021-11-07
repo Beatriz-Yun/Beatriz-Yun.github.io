@@ -2,6 +2,6 @@
 
 layout: category-page
 
-title: 블로그
+title: blog
 
 ---
