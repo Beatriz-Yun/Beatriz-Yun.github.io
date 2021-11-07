@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "100"
+title: "[논문] 100 Must-Read NLP Papers"
 date: 2021-11-07 20:11
 image: books.jpg
 tags:
 categories: papers 100_Must-Read_NLP_Papers
 ---
 
-### [100 Must-Read NLP Papers](http://masatohagiwara.net/100-nlp-papers/) 읽기
+### [100 Must-Read NLP Papers](http://masatohagiwara.net/100-nlp-papers/)
 
 #### Machine Learning
 
