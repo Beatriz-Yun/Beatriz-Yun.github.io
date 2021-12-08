@@ -2,6 +2,6 @@
 
 layout: category-page
 
-title: 100_MUST-READ_NLP_PAPERS
+title: 100-must-read-nlp-papers
 
 ---
