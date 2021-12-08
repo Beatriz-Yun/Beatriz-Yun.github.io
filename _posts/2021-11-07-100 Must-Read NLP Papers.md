@@ -4,7 +4,7 @@ title: "[논문] 100 Must-Read NLP Papers"
 date: 2021-11-07 20:11
 image: books.jpg
 tags:
-categories: PAPERS 100_MUST-READ_NLP_PAPERS
+categories: papers
 ---
 
 ### [100 Must-Read NLP Papers](http://masatohagiwara.net/100-nlp-papers/)
