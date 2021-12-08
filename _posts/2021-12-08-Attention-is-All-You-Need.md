@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Attention Is All You Need"
+title: "[논문] Attention Is All You Need"
 date: 2021-12-08 22:00
 image: transformer.jpg
 tags:
