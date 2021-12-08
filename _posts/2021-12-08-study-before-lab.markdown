@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "학부연구생 사전공부"
-date: 2021-11-07 20:11
+date: 2021-12-08 21:45
 image: ai.jpg
 tags:
 categories: data-intelligence-lab
