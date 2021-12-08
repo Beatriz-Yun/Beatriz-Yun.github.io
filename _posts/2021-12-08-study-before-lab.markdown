@@ -4,7 +4,7 @@ title: "학부연구생 사전공부"
 date: 2021-11-07 20:11
 image: books.jpg
 tags:
-categories: Data-Intelligence-Lab
+categories: data-intelligence-lab
 ---
 
 
