@@ -29,7 +29,7 @@ categories: data-intelligence-lab
 
 - Neural Machine Translation by Jointly Learning to Align and Translate
 
-- [Attention is All you Need]()
+- Attention is All you Need
 
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
