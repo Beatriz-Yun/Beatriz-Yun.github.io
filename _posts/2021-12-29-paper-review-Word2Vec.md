@@ -81,15 +81,15 @@ $O = E * T * Q$
 
 **[Feedforward Neural Net Language Model (NNLM)]**
 
-<center>
+<div style="text-align: center">
  <img src="https://user-images.githubusercontent.com/42146731/147644502-46208c01-238e-4b17-9211-8dd7af29ad7b.png" width="70%" height="70%" />
-</center>
+</div>
 
 - 구성: input, projection, hidden, output layer
-- 계산복잡도: $Q = N*D + N*D*H + H*V$
+- 계산복잡도: $Q = N\*D + N\*D\*H + H\*V$
   - dominating term: $H*V$
-- 계산복잡도(hierarchical softmax): $Q = N*D + N*D*H + H*\log_2 V*$
-  - dominating term: $N*D*H$
+- 계산복잡도(hierarchical softmax): $Q = N\*D + N\*D\*H + H\*\log_2 V$
+  - dominating term: $N\*D\*H$
 
 > **The dominant term** is the term the one that gets biggest 
 
