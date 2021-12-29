@@ -135,7 +135,7 @@ $O = E \times T \times Q$
 </div>
 
 - 구성: input, projection, output layer
-- 계산복잡도: $Q = N \times D + D \times \log_2 (V)
+- 계산복잡도: $Q = N \times D + D \times \log_2 (V)$
 - 주변단어로 중심단어를 예측
 
 <br>
@@ -187,7 +187,7 @@ $O = E \times T \times Q$
 **단어 등장 확률을 구하는 공식:**
 
 <div style="text-align: center">
- <img src="![image]((https://user-images.githubusercontent.com/42146731/147655813-170a18fa-5d2c-4150-8500-55e57c2aeae2.png)" width="70%" height="70%" />
+ <img src="https://user-images.githubusercontent.com/42146731/147659754-6b15aa8d-b57d-43cd-8b8b-065df2384959.png" width="70%" height="70%" />
 </div>
  
 - $L(w)$: $w$라는 단어의 leaf 노드에 도달하기 까지 path의 길이
@@ -197,7 +197,7 @@ $O = E \times T \times Q$
 - $[x]$: x가 참이면 1, 거짓이면 -1을 반환하는 함수
 - $v_n(w,j)$: n(w,j)는 $w$에 해당하는 leaf노드까지의 path에 있는 internal node들이고, $v_n(w,j)$는 이 internal node들에 대한 벡터를 뜻한다. 기존의 $W'$대신 사용.
 - $h$: hidden layer의 벡터.
-  - $h$대신 $v_(w_i)$로 표현하기도 한다. 이는 i번째 단어에 대한 벡터를 뜻한다.
+  - $h$대신 $v_{w_i}$로 표현하기도 한다. 이는 i번째 단어에 대한 벡터를 뜻한다.
   - input으로 들어가는 word의 vector이다. Skip-Gram의 경우에는 중심 단어의 vector, CBOW의 경우 그 주변의 context 단어들의 평균 vector.
 - $\sigma$: sigmoid function. sigmoid함수를 적용해서 확률로 만든다.
 
