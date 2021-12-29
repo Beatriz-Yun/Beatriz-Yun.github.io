@@ -11,13 +11,15 @@ use_math: true
 
 ## Efficient Estimation of Word Representations in Vector Space
 
-- **paper:** https://arxiv.org/pdf/1301.3781.pdf
+<br>
+
+- **paper:** [https://arxiv.org/pdf/1301.3781.pdf](https://arxiv.org/pdf/1301.3781.pdf)
 - **keywords:** word representation, distributed representation of words, NNLM, RNNLM, hierarchical softmax, CBOW, Skip-gram, semantic, syntactic, computational complexity 
 
 
 <br>
 
-### 목차
+### **목차**
 
 > Abstract <br><br>
 1 Introduction <br>
@@ -54,12 +56,12 @@ References
 
 ### Introduction
 
-[limits of existing word representations]
+**[limits of existing word representations]**
 - Dictionary lookup: words represented as indices in a vocabulary
  - good: simplicity, robustness, 적은 데이터로 훈련시킨 복잡한 모델보다 많은 데이터로 훈련시킨 간단한 모델의 성능이 더 좋다.
  - limits for many tasks:
-   - 자동음성인식: 보통 높은 퀄리티의 데이터의 크기가 성능을 좌우한다. 주로 백만개.
-   - 기계번역: 현재 말뭉치들은 몇십억개 이하의 단어를 포함하고 있다.
+   - 자동음성인식 - 보통 높은 퀄리티의 데이터의 크기가 성능을 좌우한다. 주로 백만개.
+   - 기계번역 - 현재 말뭉치들은 몇십억개 이하의 단어를 포함하고 있다.
 
 - 머신러닝 기술의 발전으로 최근에는 더 큰 데이터셋으로 더 복잡한 모델을 학습하는 것이 가능해졌다. 그러니 이제 복잡한 모델이 간단한 모델보다 성능이 더 좋다.
 - 아마 가장 성공적인 개념은 단어의 distributed representaion(분산표현)을 사용하는 것이다. (-> 신경망기반 언어모델)
@@ -69,9 +71,50 @@ References
 
 ### Model Architectures
 
-- training complexity는 다음 식에 비례한다.
+#### 모델 비교를 위한 계산 복잡도 정의
+$O = E * T * Q$
+- E: 훈련 epoch 수
+- T: 훈련데이터셋의 단어 개수
+- Q: 각 모델 구조에 의해 정의됨
 
-$O = E x T x Q$
+<br>
+
+**[Feedforward Neural Net Language Model (NNLM)]**
+
+<center>
+ <img src="https://user-images.githubusercontent.com/42146731/147644502-46208c01-238e-4b17-9211-8dd7af29ad7b.png" width="70%" height="70%" />
+</center>
+
+- 구성: input, projection, hidden, output layer
+- 계산복잡도: $Q = N*D + N*D*H + H*V$
+  - dominating term: $H*V$
+- 계산복잡도(hierarchical softmax): $Q = N*D + N*D*H + H*\log_2 V*$
+  - dominating term: $N*D*H$
+
+> **The dominant term** is the term the one that gets biggest 
+
+<br>
+
+- 단점:
+  - 몇 개의 단어를 볼지 미리 정해야하고, 그 수가 고정된다.
+  - 이전 단어들만 고려한다.
+  - 속도가 느리다
+
+<br>
+
+**[Recurrent Neural Net Language Model (RNNLM)]**
+[!RNNLM.jpg]()
+- 구성: input, hidden, output layer
+- 계산복잡도: $Q = H*H + H*V$
+ - dominating term: $H*V$
+- 계산복잡도(hierarchical softmax): $Q = H*H H*\log_2 H$
+ - dominating term: $H*H$
+
+- 장점:
+  - 
+
+<br><br>
+
 
 ### [References]
 
