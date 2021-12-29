@@ -17,4 +17,7 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
 </head>
