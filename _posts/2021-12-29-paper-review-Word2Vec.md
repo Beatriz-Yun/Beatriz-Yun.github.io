@@ -201,7 +201,7 @@ $O = E \times T \times Q$
   - input으로 들어가는 word의 vector이다. Skip-Gram의 경우에는 중심 단어의 vector, CBOW의 경우 그 주변의 context 단어들의 평균 vector.
 - $\sigma$: sigmoid function. sigmoid함수를 적용해서 확률로 만든다.
 
-
+<br><br>
 
 ### [References]
 
