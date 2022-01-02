@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Paper Review] [Word2Vec] Efficient Estimation of Word Representations in Vector Space"
+title: "[논문 리뷰] Word2Vec: Efficient Estimation of Word Representations in Vector Space"
 date: 2021-12-29 21:00
 image: word2vec.JPG
 tags: paper-review NLP Word2Vec Word-Representation Word-Embeddings
